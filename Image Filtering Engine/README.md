@@ -9,6 +9,31 @@ The Image Filtering Engine is a modular, Object-Oriented Java CLI application th
 *   **Multiple Filter Algorithms:** Supports standard Grayscale averaging, weighted Sepia tone, and 3x3 Box Blur convolution.
 *   **Graceful Error Handling:** Includes `try-catch` validation for file I/O, preventing crashes on invalid user inputs or corrupt files.
 
+## Project Structure
+```text
+Image Filtering Engine/
+├── .vscode/
+│   └── settings.json
+├── bin/                      # Compiled Java .class files
+├── lib/                      # External libraries (Empty)
+├── Screenshots/              # Sample inputs and filtered outputs
+│   ├── BLUR.jpg
+│   ├── GRAY.jpg
+│   ├── SEPIA.jpg
+│   └── TSUSHIMA.jpg
+├── src/                      # Core Java source code
+│   ├── BlurFilter.java       # Blur strategy implementation
+│   ├── GrayscaleFilter.java  # Grayscale strategy implementation
+│   ├── SepiaFilter.java      # Sepia strategy implementation
+│   ├── ImageIOHandler.java   # File loading and saving module
+│   ├── ImageMatrix.java      # 2D grid holding Pixel objects
+│   ├── ImageTransformer.java # Strategy Pattern Interface
+│   ├── Main.java             # Entry point and terminal CLI
+│   └── Pixel.java            # Entity class for RGB values
+├── .gitattributes
+├── README.md                 # Setup and execution instructions
+└── statement.md              # Problem statement and project scope
+
 ## Technologies Used
 *   **Language:** Java (JDK 8 or higher)
 *   **Libraries:** Java Standard Library (`javax.imageio`, `java.awt.image`, `java.io`, `java.util`)
