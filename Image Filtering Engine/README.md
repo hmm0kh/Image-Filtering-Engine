@@ -16,6 +16,8 @@ Image Filtering Engine/
 │   └── settings.json
 ├── bin/                      # Compiled Java .class files
 ├── lib/                      # External libraries (Empty)
+├── Report/
+|   └── Project Report.docx   # Project Report
 ├── Screenshots/              # Sample inputs and filtered outputs
 │   ├── BLUR.jpg
 │   ├── GRAY.jpg
