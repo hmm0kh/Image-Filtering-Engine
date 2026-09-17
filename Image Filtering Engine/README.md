@@ -10,7 +10,7 @@ The Image Filtering Engine is a modular, Object-Oriented Java CLI application th
 *   **Graceful Error Handling:** Includes `try-catch` validation for file I/O, preventing crashes on invalid user inputs or corrupt files.
 
 ## Project Structure
-```text
+
 Image Filtering Engine/
 ├── .vscode/
 │   └── settings.json
@@ -33,6 +33,20 @@ Image Filtering Engine/
 ├── .gitattributes
 ├── README.md                 # Setup and execution instructions
 └── statement.md              # Problem statement and project scope
+
+## Screenshots
+
+**Original Image (TSUSHIMA)**
+![Original](Screenshots/TSUSHIMA.jpg)
+
+**Grayscale Filter Applied**
+![Grayscale](Screenshots/GRAY.jpg)
+
+**Sepia Filter Applied**
+![Sepia](Screenshots/SEPIA.jpg)
+
+**Blur Filter Applied**
+![Blur](Screenshots/BLUR.jpg)
 
 ## Technologies Used
 *   **Language:** Java (JDK 8 or higher)
