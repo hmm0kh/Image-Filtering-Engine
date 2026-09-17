@@ -60,3 +60,20 @@ Image Filtering Engine/
 3. Open a terminal and navigate to the `src` directory of the project:
    ```bash
    cd "Image Filtering Engine/src"
+4. Compile the Java files:
+   ```bash
+   javac *.java
+5. Run the application:
+   ```bash
+   java Main
+
+## Instructions for Testing
+1. Place a sample image (e.g., test.jpg) inside the src directory, or use one of the images from the Screenshots folder.
+
+2. Run the application and provide the exact filename when prompted (e.g., TSUSHIMA.jpg).
+
+3. Enter a number (1, 2, or 3) to select the desired filter.
+
+4. Enter an output filename (e.g., output.jpg).
+
+5. Open your directory to view the newly generated, processed image file.
