@@ -1,18 +1,23 @@
-## Getting Started
+# Image Filtering Engine
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
+The Image Filtering Engine is a modular, Object-Oriented Java CLI application that allows users to apply mathematical transformations to standard image files. It loads image data into a custom 2D matrix structure, processes the pixels using algorithmic filters (Grayscale, Sepia, Box Blur), and outputs the newly modified image file. 
 
-## Folder Structure
+## Features
+*   **Modular Strategy Pattern:** Filters are implemented via a common interface, allowing dynamic algorithm selection at runtime.
+*   **Custom Pixel Mapping:** Reads uncompressed image bytes and models them into a proprietary `ImageMatrix` data structure.
+*   **Multiple Filter Algorithms:** Supports standard Grayscale averaging, weighted Sepia tone, and 3x3 Box Blur convolution.
+*   **Graceful Error Handling:** Includes `try-catch` validation for file I/O, preventing crashes on invalid user inputs or corrupt files.
 
-The workspace contains two folders by default, where:
+## Technologies Used
+*   **Language:** Java (JDK 8 or higher)
+*   **Libraries:** Java Standard Library (`javax.imageio`, `java.awt.image`, `java.io`, `java.util`)
+*   **Architecture:** Object-Oriented Programming (OOP)
+*   **Version Control:** Git / GitHub
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Steps to Install & Run
+1. Clone this repository to your local machine.
+2. Ensure you have the Java Development Kit (JDK) installed.
+3. Open a terminal and navigate to the `src` directory of the project:
+   ```bash
+   cd "Image Filtering Engine/src"
